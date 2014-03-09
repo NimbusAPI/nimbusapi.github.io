@@ -60,5 +60,3 @@ If you've used Autofac before you'll know you want to register the bus as an IBu
 ###Starting the bus
 Once the Bus is registered we want to start it. To do that we call .AutoActivate() in Autofac to instantiate Nimbus and use the OnActivated delegate to start the bus. This means that when your container is built, Nimbus will be started.
 
-
-Next up [Configuring Nimbus with Windsor](./configuring-nimbus-with-windsor.html)
