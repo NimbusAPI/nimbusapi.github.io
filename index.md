@@ -22,7 +22,7 @@ If you want more code, clone the source and have a look at the [Sample Applicati
 
 ##Who is responsible ?
 
-Nimbus is brought to you by Andrew Harcourt [@uglybugger](http://twitter.com/uglybugger) and Damian Maclennan [@damianm](http://twitter.com/nimbusapi).
+Nimbus is brought to you by Andrew Harcourt [@uglybugger](http://twitter.com/uglybugger) and Damian Maclennan [@damianm](http://twitter.com/damianm).
 
 You can follow Nimbus updates on the [NimbusAPI](http://twitter.com/nimbusapi) Twitter account.
 
