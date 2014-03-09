@@ -16,7 +16,7 @@ Events in your architecture might be things like OrderConfirmed, CustomerCreated
 
 This pattern is called Publish / Subsriber sometimes shortened to PubSub. In this patten we have a Publisher of the event, and multiple applications that Subscribe to these events and act on them.
 
-![](../images/PubSub.png) 
+![](../../images/PubSub.PNG) 
 
 ##How
 
@@ -42,5 +42,5 @@ To handle the event, we create a class which implements the IHandleMulticastEven
 
 ##Scaling it
 
-We can have multiple applications subscribing to these events, and multiple instances of each application. Remember how we set up an [Application name and an instance name](./Getting-Started-With-Nimbus) in our bus configuration ? We make sure that each of these gets a copy of the message because we create a subscriber queue for each instance.
+We can have multiple applications subscribing to these events, and multiple instances of each application. Remember how we set up an [Application name and an instance name](./Getting-Started-With-Nimbus.html) in our bus configuration ? We make sure that each of these gets a copy of the message because we create a subscriber queue for each instance.
 
