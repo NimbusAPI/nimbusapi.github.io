@@ -30,18 +30,12 @@ like:
 1.  Real world input from your projects
 2.  Success stories and case studies
 
-We've put some issues here marked as [Up-for-grabs][4] if you want to jump in.
+We've put some issues here marked as [Up-for-grabs](https://github.com/NimbusAPI/Nimbus/issues?labels=up-for-grabs&page=1&state=open) if you want to jump in.
 
-Nimbus is brought to you by Andrew Harcourt [@uglybugger][1] and Damian Maclennan [@damianm][2].
+Nimbus is brought to you by Andrew Harcourt [@uglybugger](http://twitter.com/uglybugger) and Damian Maclennan [@damianm](http://twitter.com/nimbusapi).
 
-You can follow Nimbus updates on the [NimbusAPI][3] Twitter account.
+You can follow Nimbus updates on the [NimbusAPI](http://twitter.com/nimbusapi) Twitter account.
 
 Are you using Nimbus? We'd love to hear from you. Please get in touch and let us know what you're up to!
 
-[1]: <http://twitter.com/uglybugger>
 
-[2]: <http://twitter.com/damianm>
-
-[3]: <http://twitter.com/NimbusAPI>
-
-[4]: <https://github.com/NimbusAPI/Nimbus/issues?labels=up-for-grabs&page=1&state=open>
