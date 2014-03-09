@@ -7,7 +7,7 @@ order: 3
 ---
 
 
-We've gone through this blow by blow in [the first section](./getting-started-with-nimbus) so if none of this makes sense go back and have a read there, let's just talk about the Autofac  bits.
+We've gone through this blow by blow in [the first section](./getting-started-with-nimbus.html) so if none of this makes sense go back and have a read there, let's just talk about the Autofac  bits.
 
 Getting Windsor
 

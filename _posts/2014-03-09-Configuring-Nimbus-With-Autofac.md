@@ -6,7 +6,7 @@ date: 2014-03-09
 order: 2
 ---
 
-We've gone through this blow by blow in [the first section](./getting-started-with-nimbus) so if none of this makes sense go back and have a read there, let's just talk about the Autofac  bits.
+We've gone through this blow by blow in [the first section](./getting-started-with-nimbus.html) so if none of this makes sense go back and have a read there, let's just talk about the Autofac  bits.
 
 Getting Autofac
 
@@ -61,4 +61,4 @@ If you've used Autofac before you'll know you want to register the bus as an IBu
 Once the Bus is registered we want to start it. To do that we call .AutoActivate() in Autofac to instantiate Nimbus and use the OnActivated delegate to start the bus. This means that when your container is built, Nimbus will be started.
 
 
-Next up [Configuring Nimbus with Windsor](./configuring-nimbus-with-windsor)
+Next up [Configuring Nimbus with Windsor](./configuring-nimbus-with-windsor.html)

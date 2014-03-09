@@ -15,11 +15,11 @@ There are times when you need to ask a question within your application and get 
 
 This pattern is called Request/Response. The name makes sense, we make a Request and wait for the Response. 
 
-![](./images/RequestResponse.png)
+![](../images/RequestResponse.png)
 
 If we need to scale this we can add extra responding service instances for built in, pull based load balancing.
 
-![](./images/RequestResponseScaled.png)
+![](../images/RequestResponseScaled.png)
 
 
 Note that in a loosely couple architecture, ideally the individual components act autonomously and Request Response isn't a patten you don't want to overuse. Also due to the way the return queues for messages are structured in Nimbus, relying on too many Request Response calls isn't necessarly the most performant options.

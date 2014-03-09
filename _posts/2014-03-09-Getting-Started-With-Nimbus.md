@@ -82,4 +82,4 @@ The only thing that needs explaining here is the WithNames line.
 In order to address the messages properly we have a naming convention based on the application name, and for cases where we have multiple instances of the same app we also use a unique name, usually the machine name. So we're passing those params into the .WithNames arguments
 
 
-Next up [Configuring Nimbus with Autofac](./configuring-nimbus-with-autofac)
+Next up [Configuring Nimbus with Autofac](./configuring-nimbus-with-autofac.html)

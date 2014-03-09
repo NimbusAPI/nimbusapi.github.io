@@ -16,7 +16,7 @@ Events in your architecture might be things like OrderConfirmed, CustomerCreated
 
 This pattern is called Publish / Subsriber sometimes shortened to PubSub. In this patten we have a Publisher of the event, and multiple applications that Subscribe to these events and act on them.
 
-![](./images/PubSub.png) 
+![](../images/PubSub.png) 
 
 ##How
 

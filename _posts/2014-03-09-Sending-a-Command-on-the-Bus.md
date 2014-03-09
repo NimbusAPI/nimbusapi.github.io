@@ -17,12 +17,12 @@ The pattern is called Command / Consumer, or Command and Competing Consumer. Com
 
 With single consimer this is simple and in block diagrams it looks like this:
 
-![](./images/CommandConsumer.png)
+![](../images/CommandConsumer.png)
 
 If we scale it out to multiple consumers it looks like this:
 
 
-![](./images/CommandCompetingConsumer.png)
+![](../images/CommandCompetingConsumer.png)
 
 
 ##How
