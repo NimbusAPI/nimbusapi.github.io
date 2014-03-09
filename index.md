@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Jekyll Docs Template"
+title: "Nimbus - Azure Service Bus made easy"
 ---
 
 ### Get Started
