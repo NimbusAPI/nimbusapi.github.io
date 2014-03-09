@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Contibuting"
+title: "Contributing"
 category: dev
 order: 1
 ---
