@@ -3,7 +3,7 @@ layout: page
 title: "Publishing an Event on the Bus"
 category: doc
 date: 2014-03-09
-order: 4
+order: 5
 ---
 
 ##Why

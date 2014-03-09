@@ -3,7 +3,7 @@ layout: page
 title: "Request Response"
 category: doc
 date: 2014-03-09
-order: 5
+order: 6
 ---
 
 ##Why
@@ -22,7 +22,7 @@ If we need to scale this we can add extra responding service instances for built
 ![](../images/RequestResponseScaled.png)
 
 
-Note that in a loosely couple architecture, ideally the individual components act autonomously and Request Response isn't a patten you don't want to overuse. Also due to the way the return queues for messages are structured in Nimbus, relying on too many Request Response calls isn't necessarly the most performant options.
+Note that in a loosely couple architecture, ideally the individual components act autonomously and Request Response isn't a patten you don't want to overuse. Also due to the way the return queues for messages are structured in Nimbus, relying on too many Request Response calls isn't necessarily the most performant options.
 
 That said, there are times when you just need it so Nimbus has a rich way to return data from another service in your application.
 
@@ -45,7 +45,7 @@ This looks somewhat awkward, but where associating the request type with our exp
 
 ##Handling it
 
-To implement the handler to fulfill this request we create a class that implements the IHandleRequest interface.
+To implement the handler to fulfil this request we create a class that implements the IHandleRequest interface.
 
 	public class HandleAccountDetailRequests : IHandleRequest<AccountDetailsRequest, AccountDetailsResponse>
 	{

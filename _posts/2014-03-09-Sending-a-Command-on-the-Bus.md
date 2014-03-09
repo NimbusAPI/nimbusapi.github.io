@@ -3,7 +3,7 @@ layout: page
 title: "Sending a Command on the Bus"
 category: doc
 date: 2014-03-09
-order: 3
+order: 4
 ---
 
 ##Why
