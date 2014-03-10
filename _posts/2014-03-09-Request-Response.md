@@ -31,7 +31,7 @@ That said, there are times when you just need it so Nimbus has a rich way to ret
 
 To make a request on the bus we need to implment a BusRequest. This looks like:
 
-	public class AccountDetailsRequest : BusRequest<AccountDetailsRequest, AccountDetailsResponse>
+	public class AccountDetailsRequest : IBusRequest<AccountDetailsRequest, AccountDetailsResponse>
 	{
 		public int AccountId {get; set;}
 	
