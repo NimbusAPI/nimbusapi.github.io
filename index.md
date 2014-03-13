@@ -4,7 +4,7 @@ title: "Nimbus - Azure Service Bus made easy"
 ---
 
 # Nimbus
-Nimbus is a .NET client library to add an easy to develop against experience against the Azure Service Bus.
+Nimbus is a .NET client library to add an easy to develop against experience against the Azure Service Bus or the Windows Service Bus.
 
 If you've used NServiceBus or MassTransit before, you'll be right at home.
 
