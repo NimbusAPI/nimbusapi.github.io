@@ -18,3 +18,14 @@ like:
 
 
 We've put some issues here marked as [Up-for-grabs](https://github.com/NimbusAPI/Nimbus/issues?labels=up-for-grabs&page=1&state=open) if you want to jump in.
+
+
+## Azure Service Bus connection string
+
+The integration tests require a connection string to a (local or remote) Azure Service Bus connection. Assuming you have Service Bus installed locally:
+
+1. Open the **Service Bus PowerShell**
+2. Create a new namespace: `new-sbnamespace -Name NimbusIntegration -ManageUsers '[domain\]username`
+3. Get the connection string: `get-sbclientconfiguration -Namespaces NimbusIntegration`
+4. Paste the connection string into `c:\temp\NimbusConnectionString.txt`
+5. 
