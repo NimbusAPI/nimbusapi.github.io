@@ -28,4 +28,3 @@ The integration tests require a connection string to a (local or remote) Azure S
 2. Create a new namespace: `new-sbnamespace -Name NimbusIntegration -ManageUsers '[domain\]username`
 3. Get the connection string: `get-sbclientconfiguration -Namespaces NimbusIntegration`
 4. Paste the connection string into `c:\temp\NimbusConnectionString.txt`
-5. 
