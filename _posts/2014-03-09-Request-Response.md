@@ -22,14 +22,14 @@ If we need to scale this we can add extra responding service instances for built
 ![](../../images/RequestResponseScaled.PNG)
 
 
-Note that in a loosely couple architecture, ideally the individual components act autonomously and Request Response isn't a patten you don't want to overuse. Also due to the way the return queues for messages are structured in Nimbus, relying on too many Request Response calls isn't necessarily the most performant options.
+Note, that in a loosely-coupled architecture, ideally the individual components act autonomously and Request Response is a patten you don't want to overuse. Also due to the way the return queues for messages are structured in Nimbus, relying on too many Request Response calls isn't necessarily the most performant option.
 
 That said, there are times when you just need it so Nimbus has a rich way to return data from another service in your application.
 
 
 ##How
 
-To make a request on the bus we need to implment a BusRequest. This looks like:
+To make a request on the bus we need to implement a BusRequest. This looks like:
 
 	public class AccountDetailsRequest : IBusRequest<AccountDetailsRequest, AccountDetailsResponse>
 	{
@@ -37,7 +37,7 @@ To make a request on the bus we need to implment a BusRequest. This looks like:
 	
 	}
 
-This looks somewhat awkward, but where associating the request type with our expected response type. Now we can put it on the bus like this:
+This looks somewhat awkward, but we're associating the request type with our expected response type. Now we can put it on the bus like this:
 
 	var response = await bus.Request(new AccountDetailsRequest{AccountID=1234});
 

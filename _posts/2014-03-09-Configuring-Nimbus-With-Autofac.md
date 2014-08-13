@@ -6,7 +6,7 @@ date: 2014-03-09
 order: 2
 ---
 
-We've gone through this blow by blow in [the first section](./Getting-Started-With-Nimbus.html) so if none of this makes sense go back and have a read there, let's just talk about the Autofac  bits.
+We've gone through this blow by blow in [the first section](./Getting-Started-With-Nimbus.html) so if none of this makes sense go back and have a read there, let's just talk about the Autofac bits.
 
 Getting Autofac
 
@@ -51,7 +51,7 @@ There's an extension method that will register all of the various message handle
                          .WithAutofacDefaults(componentContext)
                          .Build())
 
-This is the configuration call we've already seen with one difference. We've already registered our handlers with Autofac but we need to tell the container how to build the configure the bus. You can dig into the source if you want to see how it works, but the .WithAutofacDefaults call is what you'll need.
+This is the configuration call we've already seen with one difference. We've already registered our handlers with Autofac but we need to tell the container how to build and configure the bus. You can dig into the source if you want to see how it works, but the .WithAutofacDefaults call is what you'll need.
 
 ###Registering IBus
 

@@ -15,7 +15,7 @@ In a distributed system, you may want to send a command to another part of your 
 The pattern is called Command / Consumer, or Command and Competing Consumer. Competing because we could have multiple applications processing these commands so we can scale out. Because of the queue naming and listener configuration we guarantee that only one of the consuming services will get the command message.
 
 
-With single consimer this is simple and in block diagrams it looks like this:
+With a single consumer this is simple and in block diagrams it looks like this:
 
 ![](../../images/CommandConsumer.PNG)
 
@@ -32,7 +32,7 @@ To send the command on the bus we use the IBus.Send method.
 	var command = new SendEmailCommand {Recipient= "me@domain.com", Subject="You've got mail", Body="Dear Sir...."};
     bus.Send(command);
 
-In this example we've created a SendEmailCommand class which implments the IBusCommand interface.
+In this example we've created a SendEmailCommand class which implements the IBusCommand interface.
 
 
 ##Handling it
@@ -57,6 +57,6 @@ To scale the handling of these messages across multiple instances, we just add m
 
 ##Delayed Sending
 
-A handy tool we have is to delay the sending of a command until a later time. If we know we need to trigger actions at a certain time we can send a delayed command rather than having to build a storage and timing infrastructure in our app.
+A handy tool we have is to delay the sending of a command until a later time. If we know we need to trigger actions at a certain time we can send a delayed command rather than having to build storage and timing infrastructure in our app.
 
-To do this we have a couple of methods on our bus. SendAt() and SendAfter(). SendAt takes a DateTimeOffset to specify a specific time and SendAfter takes a TimeSpan to specify a time from now.
+To do this we have a couple of methods on our bus: SendAt() and SendAfter(). SendAt takes a DateTimeOffset to specify a specific time and SendAfter takes a TimeSpan to specify a time from now.
