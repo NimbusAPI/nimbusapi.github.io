@@ -51,7 +51,7 @@ This is your connection string, the address of your Azure Service Bus namespace.
 	var typeProvider = new AssemblyScanningTypeProvider(Assembly.GetExecutingAssembly());
 
 
-Next up is your type provider. This is what Nimbus uses to find all the messages you want to put on the bus and handle from the bus, as well as all your handlers. The default AssemblyScanningTypeProvider is what you most likely what you want here unless you want to do something funky. It will scan all the assemblies you pass in to it for any Events, Commands, Requests and their related Handlers so we can register them. The argument here is a param array of Assembles so you can have your messages and handlers in multiple assemblies (you will want this in any real world app) and pass them in as arguments
+Next up is your type provider. This is what Nimbus uses to find all the messages you want to put on the bus and handle from the bus, as well as all your handlers. The default AssemblyScanningTypeProvider is most likely what you want here unless you want to do something funky. It will scan all the assemblies you pass in to it for any Events, Commands, Requests and their related Handlers so we can register them. The argument here is a param array of Assembles so you can have your messages and handlers in multiple assemblies (you will want this in any real world app) and pass them in as arguments
 
 ####Handler Factories
 
