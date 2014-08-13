@@ -8,7 +8,7 @@ order: 8
 
 ##Why
 
-This is a variaton on the [Multicast Request Response](./Multicast-Request-Response.html) example. Instead of the scenario where we want to collect all responses we may only care about latency and the time to the first response.
+This is a variation on the [Multicast Request Response](./Multicast-Request-Response.html) example. Instead of the scenario where we want to collect all responses we may only care about latency and the time to the first response.
 
 
 

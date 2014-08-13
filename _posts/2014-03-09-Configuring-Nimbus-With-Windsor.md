@@ -7,7 +7,7 @@ order: 3
 ---
 
 
-We've gone through this blow by blow in [the first section](./Getting-Started-With-Nimbus.html) so if none of this makes sense go back and have a read there, let's just talk about the Autofac  bits.
+We've gone through this blow by blow in [the first section](./Getting-Started-With-Nimbus.html) so if none of this makes sense go back and have a read there, let's just talk about the Windsor bits.
 
 Getting Windsor
 
@@ -15,7 +15,7 @@ First thing you need to do is pull down the Windsor provider. This is via NuGet 
 
 	Install-Package Nimbus.Windsor
 
-Now we configure Nimbus and register it with the container 
+Now we configure Nimbus and register it with the container.
 
 
     var typeProvider = new AssemblyScanningTypeProvider(Assembly.GetExecutingAssembly());
@@ -57,7 +57,7 @@ There's an extension method that will register all of the various message handle
                                 .StartUsingMethod("Start")
         );
 
-This is the configuration call we've already seen with one difference. We've already registered our handlers with Windsor but we need to tell the container how to build the configure the bus. You can dig into the source if you want to see how it works, but the .WithWindsorDefaults call is what you'll need.
+This is the configuration call we've already seen with one difference. We've already registered our handlers with Windsor but we need to tell the container how to build and configure the bus. You can dig into the source if you want to see how it works, but the .WithWindsorDefaults call is what you'll need.
 
 ###Registering IBus
 
