@@ -28,4 +28,7 @@ The integration tests require a connection string to a (local or remote) Azure S
 2. Create a new namespace: `new-sbnamespace -Name NimbusIntegration -ManageUsers '[domain\]username`
 3. Get the connection string: `get-sbclientconfiguration -Namespaces NimbusIntegration`
 4. Paste the connection string into `c:\temp\NimbusConnectionString.txt`
-5. 
+
+## Consuming the bleeding-edge
+
+If you've contributed a fix that you want quick access to, or you'd like an early play with what else is in the pipeline, you can get pre-release packages from the NuGet feed at [http://twcbuild.cloudapp.net/guestAuth/app/nuget/v1/FeedService.svc](http://twcbuild.cloudapp.net/guestAuth/app/nuget/v1/FeedService.svc).
