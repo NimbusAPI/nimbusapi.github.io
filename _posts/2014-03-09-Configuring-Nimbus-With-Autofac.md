@@ -16,6 +16,8 @@ First thing you need to do is pull down the Autofac provider. This is via NuGet 
 
 Now we configure Nimbus and register it with the container 
     
+    var builder = new ContainerBuilder();
+    
     var handlerTypesProvider = new AssemblyScanningTypeProvider(Assembly.GetExecutingAssembly());
     
     builder.RegisterNimbus(handlerTypesProvider);
