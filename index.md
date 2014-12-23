@@ -15,9 +15,7 @@ Nimbus provides implementations of all of the common messaging patterns for buil
 
 ## How to get started ?
 
-This site has step by step instructions for getting up and running with Nimbus as well as an explaination of Nimbus's messaging patterns and how to implement them. Follow the links on the left for a quick and easy guide to building applications with Nimbus.
-
-If you want more code, clone the source and have a look at the [Sample Applications](https://github.com/NimbusAPI/Nimbus/tree/master/src/Samples).
+We are in the process of moving all [documentation over to the GitHub wiki](https://github.com/NimbusAPI/Nimbus/wiki), so go look there for a step by step guide to getting up and running.
 
 
 ##Who is responsible ?
