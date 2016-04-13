@@ -1,1 +1,0 @@
-Nimbus website at [http://nimbusapi.github.io/](http://nimbusapi.github.io/)
