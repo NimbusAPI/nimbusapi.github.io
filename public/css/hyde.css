@@ -81,6 +81,10 @@ html {
   margin-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
+  background: url("../nimbus.png");
+  text-indent: -9999px;
+   width: 250px; 
+  height: 150px;
 }
 
 /* Sidebar nav */

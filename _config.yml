@@ -4,12 +4,12 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
 title:            Nimbus API
 tagline:          'A Messaging API for Cloud Applications'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Nimbus API is a .NET API for building messaging applications with Azure Service Bus, Windows Service Bus, and Redis'
 url:              http:/nimbusapi.com
 baseurl:          /
 
@@ -20,7 +20,9 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+#version:          2.1.0
 
 github:
   repo:           https://github.com/nimbusapi/nimbus
+
+gems:             [jekyll-paginate]
