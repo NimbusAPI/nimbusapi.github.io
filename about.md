@@ -1,30 +1,26 @@
 ---
 layout: page
-title: About
+title: "About"
+headline: "Nimbus API - Service Bus Apps made easy"
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Nimbus is a .NET client library to add an easy to develop against experience against the Azure Service Bus, Windows Service Bus, or Redis.
 
-There are currently two themes built on Poole:
+If you've used NServiceBus or MassTransit before, you'll be right at home.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Nimbus provides implementations of all of the common messaging patterns for building distributed, service-oriented systems.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## How to get started ?
 
-## Setup
+We've put all the [documentation over to the GitHub wiki](https://github.com/NimbusAPI/Nimbus/wiki), so go look there for a step by step guide to getting up and running.
 
-Some fun facts about the setup of this project include:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+##Who is responsible ?
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Nimbus is brought to you by Andrew Harcourt [@uglybugger](http://twitter.com/uglybugger) and Damian Maclennan [@damianm](http://twitter.com/damianm).
 
-Thanks for reading!
+You can follow Nimbus updates on the [NimbusAPI](http://twitter.com/nimbusapi) Twitter account.
+
+Are you using Nimbus? We'd love to hear from you. Please get in touch and let us know what you're up to!
+
