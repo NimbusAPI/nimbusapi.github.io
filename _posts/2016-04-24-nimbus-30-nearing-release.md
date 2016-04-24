@@ -6,7 +6,7 @@ author: DamianM
 
 Well the wait is nearly over, and welcome to the new Nimbus API website and domain!
 
-In late 2015 a thread was started about the [https://github.com/NimbusAPI/Nimbus/issues/221](state of Nimbus). 
+In late 2015 a thread was started about the [state of Nimbus](https://github.com/NimbusAPI/Nimbus/issues/221). 
 Nimbus faced a few technical problems because of dependencies on out of date Microsoft SDKs, and between that and time commitments and professional lives of myself and Andrew, Nimbus was feeling a little neglected.
 
 We sat down before Christmas and decided that we really did want to push ahead with it, so refactored out the dependency on the old Azure SDK and BrokeredMessage.
@@ -21,7 +21,7 @@ So here we are.
 
 3.0 is pretty much ready to go, we've been using it on a few apps and it's working nicely.
 
-To get started, you just need to add in an extra Nuget package for your Transport. The packages are avalable on our [https://www.myget.org/gallery/nimbusapi](MyGet feed). 
+To get started, you just need to add in an extra Nuget package for your Transport. The packages are avalable on our [MyGet feed](https://www.myget.org/gallery/nimbusapi). 
 
 Then add your transport :
 
