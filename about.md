@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-headline: "Nimbus API - Service Bus Apps made easy"
+headline: "Nimbus API - A messaging API for cloud applications"
 ---
 
 
