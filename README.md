@@ -1,1 +1,3 @@
-Nimbus website at [http://nimbusapi.github.io/](http://nimbusapi.github.io/)
+# Nimbus API
+
+This is the website for Nimbus API.

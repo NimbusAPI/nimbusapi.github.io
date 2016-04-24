@@ -1,51 +1,28 @@
-# Site title and subtitle. This is used in _includes/header.html
-title: 'Nimbus'
-subtitle: 'Azure Service Bus Made Easy'
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Enable/show navigation. There are there options:
-#   0 - always hide
-#   1 - always show
-#   2 - show only if posts are present
-navigation: 2
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
 
-# URL to source code, used in _includes/footer.html
-codeurl: 'https://github.com/NimbusAPI/Nimbus'
+# Setup
+title:            Nimbus API
+tagline:          'A Messaging API for Cloud Applications'
+description:      'Nimbus API is a .NET API for building messaging applications with Azure Service Bus, Windows Service Bus, and Redis'
+url:              http:/nimbusapi.com
+baseurl:          /
 
-# Default categories (in order) to appear in the navigation
-sections: [
-    ['doc', 'Documentation'],
-    ['tut', 'Tutorial'],
-    ['ref', 'Reference'],
-    ['dev', 'Developers'],
-    ['post', 'Posts']
-]
+author:
+  name:           'NimbusAPI'
+  url:            https://twitter.com/nimbusapi
 
-# Keep as an empty string if served up at the root. If served up at a specific
-# path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
-baseurl: ''
+paginate:         5
 
-# Dates are not included in permalinks
-permalink: none
+# Custom vars
+#version:          2.1.0
 
-# Syntax highlighting
-pygments: true
+github:
+  repo:           https://github.com/nimbusapi/nimbus
 
-# Since these are pages, it doesn't really matter
-future: true
-
-# Exclude non-site files
-exclude: ['bin', 'README.md']
-
-# Use the redcarpet Markdown renderer
-markdown: redcarpet
-redcarpet:
-    extensions: [
-        'no_intra_emphasis',
-        'fenced_code_blocks',
-        'autolink',
-        'strikethrough',
-        'superscript',
-        'with_toc_data',
-        'tables',
-        'hardwrap'
-    ]
+gems:             [jekyll-paginate]
