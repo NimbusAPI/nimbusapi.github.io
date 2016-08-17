@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    image: jekyll/jekyll:pages
+    command: jekyll s --force_polling --drafts
+    ports:
+     - "4000:4000"
+    volumes:
+     - .:/srv/jekyll
