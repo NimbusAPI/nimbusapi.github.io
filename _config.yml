@@ -11,7 +11,7 @@ title:            Nimbus API
 tagline:          'A Messaging API for Cloud Applications'
 description:      'Nimbus API is a .NET API for building messaging applications with Azure Service Bus, Windows Service Bus, and Redis'
 url:              http:/nimbusapi.com
-baseurl:          //
+baseurl:          /
 
 author:
   name:           'NimbusAPI'
